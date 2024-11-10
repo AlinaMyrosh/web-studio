@@ -77,6 +77,7 @@ address {
 
 /* ------- HEADER ------- */
 .header {
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container {
@@ -111,6 +112,7 @@ address {
   display: flex;
   gap: 40px;
 }
+
 .header-menu-item {
 }
 
@@ -247,14 +249,14 @@ address {
 .team-item {
   background-color: #fff;
   flex-basis: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-img {
-  margin-bottom: 32px;
 }
 
 .team-item-info {
-  padding-bottom: 32px;
+  padding: 32px 0;
 }
 
 .team-subtitle {
@@ -297,15 +299,15 @@ address {
 
 .portfolio-item {
   flex-basis: calc((100% - 48px) / 3);
-  padding-bottom: 32px;
 }
+
 .portfolio-img {
-  margin-bottom: 32px;
 }
 
 .portfolio-item-info {
-  padding-left: 16px;
-  padding-right: 16px;
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 .portfolio-subtitle {
